@@ -147,7 +147,7 @@ var duration = parseFloat(".4");
 var speed = parseFloat(".1");
 var radius = parseFloat(".1");
 
-var message = new Shape(W / 2, H / 2 + 100, messageValue);
+var message = new Shape(W / 2, H / 2 - 100, messageValue);
 
 message.getValue();
 
